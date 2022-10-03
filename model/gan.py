@@ -1,5 +1,4 @@
 
-from genericpath import isfile
 from tensorflow.keras.layers import Dense, LeakyReLU, Dropout, Input, Concatenate
 from tensorflow.keras.models import Sequential, Model, load_model
 from tensorflow.keras.utils import to_categorical
